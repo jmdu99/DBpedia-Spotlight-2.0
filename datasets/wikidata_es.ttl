@@ -1,0 +1,216 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://backuppc.sourceforge.net/#char=0,8>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BackupPC" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://backuppc.sourceforge.net/#char=0,157> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q798540> .
+
+<https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,8>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kǒng Jiǎ" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,480> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1193337> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,16>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronnie Valentine" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3941143> .
+
+<https://es.wikipedia.org/wiki/El_Main#char=0,331>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "331"^^xsd:nonNegativeInteger ;
+        nif:isString    "El Main es un municipio (baladiyah) de la provincia o valiato de Bordj Bou Arréridj en Argelia. En abril de 2008 tenía una población censada de 6237 habitantes. Se encuentra ubicado en el centro-norte del país, sobre la cordillera del Atlas, a poca distancia al sur de la costa del mar Mediterráneo y de la capital del país, Argel." .
+
+<https://es.wikipedia.org/wiki/Leticia_Loor#char=0,12>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leticia Loor" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Leticia_Loor#char=0,414> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q76824511> .
+
+<https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=28,39>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Andy Durgan" ;
+        nif:beginIndex        "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=0,297> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q21115144> .
+
+<https://es.wikipedia.org/wiki/El_Main#char=0,7>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "El Main" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/El_Main#char=0,331> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3050042> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "263"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ronnie Valentine (Norfolk, Virginia, 27 de noviembre de 1957) es un exjugador de baloncesto estadounidense que disputó una temporada en la NBA, además de jugar en la CBA, la USBL y la liga italiana. Con 2,01 metros de estatura, jugaba en la posición de ala-pívot." .
+
+<https://es.wikipedia.org/wiki/West_Elizabeth#char=0,14>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "West Elizabeth" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/West_Elizabeth#char=0,214> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1183917> .
+
+<https://es.wikipedia.org/wiki/Watergrasshill#char=0,275>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "275"^^xsd:nonNegativeInteger ;
+        nif:isString    "Watergrasshill es una localidad situada en el condado de Cork de la provincia de Munster (República de Irlanda), con una población en 2016 de 1346 habitantes. Se encuentra ubicada al suroeste del país, a poca distancia de la ciudad de Cork y de la costa del océano Atlántico." .
+
+<https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,480>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "480"^^xsd:nonNegativeInteger ;
+        nif:isString    "Kǒng Jiǎ (孔甲) fue el 14º rey de la Dinastía Xia de China y el hijo de Bù Jiàng.[2]​[3]​ Posiblemente gobernó 31 años. Según los Anales de Bambú, vivió como su tío Jiōng en la capital Xia de Río del Oeste (西河).[4]​ Los anales no cuentan mucho de este rey, más allá de que en el tercer año de su régimen practicaba la caza en las Montañas Fu (萯山) en Dongyang (东阳) y en el quinto año compuso la canción \"El sonido de Oriente\" (东音), también llamada \"La canción del hacha rota\" (破斧之歌)." .
+
+<https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=0,148>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "148"^^xsd:nonNegativeInteger ;
+        nif:isString    "Entecavir es un medicamento antiviral que se utiliza para tratar la infección crónica (largo plazo) por el virus de la hepatitis B (VHB) en adultos." .
+
+<https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=0,938>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "938"^^xsd:nonNegativeInteger ;
+        nif:isString    "El Autódromo Internacional de Panamá, conocido como Circuito Internacional de Panamá entre los panameños, es un autódromo en fase de construcción y ampliación es el primer circuito Autódromo construido en Panamá. Ha sido inaugurado 2 veces ya que cuenta con 3 pistas, la primera fue la de cuarto de milla, la segunda el Circuito de carrera y la tercera será para 4x4, la última inauguración que ha sido la más importante es la del circuito, que fue en julio de 2016. El autódromo se ubica en la Provincia de Panamá Oeste, corregimiento Mendoza, Distrito de La Chorrera. aproximadamente a 20 minutos de Ciudad de Panamá, capital de Panamá. El circuito tiene una longitud de 2.300 kilómetros; el diseño fue supervisado por la (Federación Internacional del Automóvil) la pista contiene subidas, bajadas, un punto ciego, muchas curvas pronunciadas y pocas rectas, el récord de velocidad alcanzado es de 255 km/h (dependiendo de la categoría)." .
+
+<https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=3,36>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Autódromo Internacional de Panamá" ;
+        nif:beginIndex        "3"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=0,938> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q30915280> .
+
+<https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=0,9>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Entecavir" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=0,148> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q418586> .
+
+<https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=0,78>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "78"^^xsd:nonNegativeInteger ;
+        nif:isString    "Prionotolytta zimbabweana es una especie de coleóptero de la familia Meloidae." .
+
+<https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=0,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prionotolytta zimbabweana" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=0,78> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1959165> .
+
+<https://es.wikipedia.org/wiki/Watergrasshill#char=0,14>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Watergrasshill" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Watergrasshill#char=0,275> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3776348> .
+
+<http://backuppc.sourceforge.net/#char=0,157>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "157"^^xsd:nonNegativeInteger ;
+        nif:isString    "BackupPC es un sistema empresarial de alto rendimiento para realizar copias de seguridad de PC y portátiles Linux, WinXX y MacOSX en el disco de un servidor." .
+
+<https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=0,370>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "370"^^xsd:nonNegativeInteger ;
+        nif:isString    "Kilobaud Microcomputing fue una revista estatunidense dedicada a los forofos de los ordenadores personales desde el final de la década de 1970 hasta principios de la década de 1980. Kilobaud Microcomputing cubría todos el campos de los \"microordenadores, hardware y software, con artículos sobre los diferentes campos de la informática, especialmente telecomunicaciones." .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=0,297>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "297"^^xsd:nonNegativeInteger ;
+        nif:isString    "Rathkeale ( irlandés : Ráth Caola , que significa \" ringfort de Caola \") es una ciudad en el oeste del condado de Limerick , en Irlanda . Se encuentra a 30 km (18 millas) al suroeste de la ciudad de Limerick en la carretera N21 a Tralee , condado de Kerry , y se encuentra a orillas del río Deel ." .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=0,9>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rathkeale" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.qaz.wiki/wiki/Rathkeale#char=0,297> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1006749> .
+
+<https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=0,23>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kilobaud Microcomputing" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=0,370> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q6408108> .
+
+<http://helgadealvear.com/artistas/angela-de-la-cruz/#char=125,142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ángela de la Cruz" ;
+        nif:beginIndex        "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://helgadealvear.com/artistas/angela-de-la-cruz/#char=0,318> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4242074> .
+
+<https://es.wikipedia.org/wiki/Poggiorsini#char=0,11>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Poggiorsini" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Poggiorsini#char=0,102> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q51840> .
+
+<https://es.wikipedia.org/wiki/Leticia_Loor#char=0,414>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "414"^^xsd:nonNegativeInteger ;
+        nif:isString    "Leticia Loor Martínez (Guayaquil, 1953) es una escritora y profesora ecuatoriana. Describe a sus obras como de misterio humano-psicológicas.1​ Durante su formación en la Literatura participó en talleres de escritores de larga trayectoria tales como Fernando Itúrburu y Miguel Donoso Pareja. Estudió Literatura y se graduó en la Universidad Católica Santiago de Guayaquil, siendo después docente de esta asignatura." .
+
+<https://es.wikipedia.org/wiki/Poggiorsini#char=0,102>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "102"^^xsd:nonNegativeInteger ;
+        nif:isString    "Poggiorsini es una localidad italiana de la provincia de Bari, región de Puglia, con 1.454 habitantes." .
+
+<http://helgadealvear.com/artistas/angela-de-la-cruz/#char=0,318>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "318"^^xsd:nonNegativeInteger ;
+        nif:isString    "A finales de la década de los ochenta, y tras licenciarse en Filosofía y Letras en la Universidad de Santiago de Compostela, Ángela de la Cruz abandona su ciudad natal de A Coruña para trasladarse a Londres. Allí inicia sus estudios en el Chelsea College of Art y más tarde en Goldsmiths College y Slade School of Art." .
+
+<https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=0,297>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "297"^^xsd:nonNegativeInteger ;
+        nif:isString    "Paseamos con el historiador Andy Durgan para recuperar la huella de la revolución social de 1936 plantando cara a la sublevación militar contra la República y de los violentos hechos del mayo del 37 cuando se enfrentaron comunistas, anarquistas y trotskistas en la emblemática avenida barcelonesa." .
+
+<https://es.wikipedia.org/wiki/West_Elizabeth#char=0,214>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "214"^^xsd:nonNegativeInteger ;
+        nif:isString    "West Elizabeth es un borough ubicado en el condado de Allegheny en el estado estadounidense de Pensilvania. En el año 2000 tenía una población de 565 habitantes y una densidad poblacional de 727.2 personas por km²." .
+

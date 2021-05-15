@@ -1,0 +1,635 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<https://www.gemcoplayers.org/#char=0,13>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gemco Players" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.gemcoplayers.org/#char=0,238> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5530588> .
+
+<https://en.wikipedia.org/wiki/Ted_Rigg#char=0,14>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Edward G. Rigg" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Ted_Rigg#char=0,95> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q19788119> .
+
+<https://en.wikipedia.org/wiki/Antaea#char=0,120>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "120"^^xsd:nonNegativeInteger ;
+        nif:isString    "Antaea (Ancient Greek: Ἀνταία), or Antea, was in Greek mythology an epithet of the goddesses Demeter, Rhea, and Cybele. " .
+
+<https://en.wikipedia.org/wiki/Sony_Entertainment_Network#char=0,147>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "147"^^xsd:nonNegativeInteger ;
+        nif:isString    "Music Unlimited was a cloud-based music service. According to Sony, the music catalog contained 25 million songs and was available in 19 countries." .
+
+<https://www.manualslib.com/products/Motorola-V535-283698.html#char=0,40>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "40"^^xsd:nonNegativeInteger ;
+        nif:isString    "Motorola V535 Owner's Manual (249 pages)" .
+
+<https://ilovethisname.com/names/holger.html#char=77,93>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Holger Oscarsson" ;
+        nif:beginIndex        "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://ilovethisname.com/names/holger.html#char=0,149> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q47512239> .
+
+<https://en.wikipedia.org/wiki/Transport_in_B%C4%83l%C8%9Bi#char=0,253>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "253"^^xsd:nonNegativeInteger ;
+        nif:isString    "Passenger transport in Bălți is mainly carried out by the Bălți Trolleybus Authority and Bălți Bus Authority, as well as by private bus, minibus and taxi companies. The total number of transported passengers in Bălți in 2004 was 35,4 million passengers." .
+
+<https://www.wikiwand.com/en/%C5%BBygowice#char=0,313>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "313"^^xsd:nonNegativeInteger ;
+        nif:isString    "Żygowice [ʐɨɡɔˈvit͡sɛ] (German: Zygowitz) is a settlement in the administrative district of Gmina Starogard Gdański, within Starogard County, Pomeranian Voivodeship, in northern Poland.[1] It lies approximately 9 kilometres (6 mi) north of Starogard Gdański and 37 km (23 mi) south of the regional capital Gdańsk." .
+
+<https://virtualglobetrotting.com/map/watchtower-of-el-vella-n/view/google/#char=0,154>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "154"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Watchtower of El Vellón (Spanish: Atalaya de El Vellón) is a watchtower located in El Vellón, Spain. It was declared Bien de Interés Cultural in 1983." .
+
+<https://en.wikipedia.org/wiki/Peggy_Regenwetter#char=0,152>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "152"^^xsd:nonNegativeInteger ;
+        nif:isString    "Peggy Regenwetter (born 16 February 1971) is a Luxembourgian table tennis player. She competed in women's doubles at the 2000 Summer Olympics in Sydney." .
+
+<https://en.wikipedia.org/wiki/Peggy_Creek#char=0,117>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "117"^^xsd:nonNegativeInteger ;
+        nif:isString    "Peggy Creek is a stream in the U.S. state of South Dakota. Peggy Creek has the name of a horse which roamed the area." .
+
+<https://www.chinadaily.com.cn/english/focus/2004-02/27/content_310000.htm#char=42,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Li Zhaozhuo" ;
+        nif:beginIndex        "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.chinadaily.com.cn/english/focus/2004-02/27/content_310000.htm#char=0,186> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3704418> .
+
+<https://play.google.com/store/apps/details?id=com.herocraft.game.antraidgame&hl=en_US&gl=US#char=0,8>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ant Raid" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://play.google.com/store/apps/details?id=com.herocraft.game.antraidgame&hl=en_US&gl=US#char=0,175> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q18209403> .
+
+<https://en.wikipedia.org/wiki/Olympus_%C2%B5_Tough#char=0,15>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Olympus µ Tough" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Olympus_%C2%B5_Tough#char=0,219> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q20065227> .
+
+<https://www.wikiwand.com/en/Ol%C3%ADmpico_Peruano#char=0,89>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "89"^^xsd:nonNegativeInteger ;
+        nif:isString    "Olímpico Peruano is a Peruvian football club, playing in the city of Santiago, Ica, Peru." .
+
+<https://www.mindat.org/taxon-1918014.html#char=0,149>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "149"^^xsd:nonNegativeInteger ;
+        nif:isString    "Olyras is a genus of clearwing (ithomiine) butterflies, named by Henry Doubleday in 1847. They are in the brush-footed butterfly family, Nymphalidae." .
+
+<https://en.wikipedia.org/wiki/Li_Yuyang#char=0,9>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Li Yuyang" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Li_Yuyang#char=0,119> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q27805437> .
+
+<https://en.wikipedia.org/wiki/Ted_Rigg#char=0,95>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "95"^^xsd:nonNegativeInteger ;
+        nif:isString    "Edward G. Rigg (June 7, 1913 – January 1, 2002) was an American professional basketball player." .
+
+<https://en.wikipedia.org/wiki/Ans%C3%B3_Aragonese#char=0,103>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "103"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ansó Aragonese is a variety of Western Aragonese spoken in Ansó Valley, included Ansó, Biniés and Fago." .
+
+<https://peoplepill.com/people/ted-sivies#char=0,147>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "147"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ted Sivies (17 June 1902 – 14 July 1951) was an Australian rules footballer who played with South Melbourne in the Victorian Football League (VFL)." .
+
+<https://ilovethisname.com/names/holger.html#char=0,149>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "149"^^xsd:nonNegativeInteger ;
+        nif:isString    "Fredriksson  Sweden 8 0 Sten Grönqvist  Sweden 8 0 Henry Hagelin  Sweden 8 0 Holger Oscarsson  Sweden 8 0 Per Eriksson  Sweden 8 0 Mihlali Mayambela " .
+
+<https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man#char=0,235>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "235"^^xsd:nonNegativeInteger ;
+        nif:isString    "With the promise of money, he was convinced by Hank Pym to take on the mantle of Ant-Man: a superhero with an advanced suit designed to shrink its wearer to a tiny size while increasing one's toughness, agility, and physical strength. " .
+
+<https://en.wikipedia.org/wiki/Goon:_Last_of_the_Enforcers#char=0,27>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goon: Last of the Enforcers" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Goon:_Last_of_the_Enforcers#char=0,157> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q20649371> .
+
+<https://en.wikipedia.org/wiki/Motorola_International_3200#char=0,188>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "188"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Motorola International 3200 was the first digital hand-held mobile telephone introduced in 1992, along with the more compact 5200, 5080, 7200 and 7500 \"flip phones\" introduced in 1994." .
+
+<https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man#char=81,88>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ant-Man" ;
+        nif:beginIndex        "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man#char=0,235> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5901134> .
+
+<https://en.wikipedia.org/wiki/Antaea#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Antaea" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Antaea#char=0,120> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q21548678> .
+
+<https://en.wikipedia.org/wiki/Goon:_Last_of_the_Enforcers#char=0,157>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "157"^^xsd:nonNegativeInteger ;
+        nif:isString    "Goon: Last of the Enforcers is a 2017 Canadian sports comedy film directed by Jay Baruchel in his directorial debut and written by Baruchel and Jesse Chabot." .
+
+<https://en.wikipedia.org/wiki/Tubardi#char=0,263>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "263"^^xsd:nonNegativeInteger ;
+        nif:isString    "Tubardi (Persian: توبردي‎, also Romanized as Tūbardī)[1] is a village in Bahmai-ye Garmsiri-ye Shomali Rural District, Bahmai-ye Garmsiri District, Bahmai County, Kohgiluyeh and Boyer-Ahmad Province, Iran. At the 2006 census, its population was 19, in 4 families." .
+
+<https://www.alaska.org/detail/goose-lake-anchorage#char=0,149>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "149"^^xsd:nonNegativeInteger ;
+        nif:isString    "Goose Lake is located in central Anchorage, near the university district. You'd never know you're in the heart of Anchorage as you view Pacific loons" .
+
+<https://en.wikipedia.org/wiki/Antaeotricha_albifrons#char=0,139>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "139"^^xsd:nonNegativeInteger ;
+        nif:isString    "Antaeotricha albifrons is a moth in the family Depressariidae. It was described by Philipp Christoph Zeller in 1877. It is found in Brazil." .
+
+<https://www.worldcasinodirectory.com/casino/holiday-inn-sunspree-aruba-resort-excelsior-casino-90#char=4,20>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Excelsior Casino" ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.worldcasinodirectory.com/casino/holiday-inn-sunspree-aruba-resort-excelsior-casino-90#char=0,243> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q16931134> .
+
+<https://www.theengineer.co.uk/full-speed-ahead-careers-in-the-uk-motorsport-sector/#char=0,410>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "410"^^xsd:nonNegativeInteger ;
+        nif:isString    "Overall, the UK motorsport industry sustains almost 41,000 jobs, around 90 per cent of which export globally. Many of them are in Motorsport Valley, which more specifically describes an area roughly 80 miles wide stretching from the south west of Birmingham to Norwich. Larger teams, such as Mercedes and Red Bull, employ around 700 people in the area, while teams such as Force India have about 300 employees." .
+
+<https://www.wikiwand.com/en/Oman_at_the_1996_Summer_Olympics#char=0,4>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oman" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.wikiwand.com/en/Oman_at_the_1996_Summer_Olympics#char=0,68> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q148105> .
+
+<https://peoplepill.com/people/ted-sivies#char=0,10>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ted Sivies" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://peoplepill.com/people/ted-sivies#char=0,147> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q23617631> .
+
+<https://www.biotaxa.org/Zootaxa/article/view/zootaxa.4722.1.9#char=0,106>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "106"^^xsd:nonNegativeInteger ;
+        nif:isString    "The oldest fungus gnat of the tribe Exechiini in the lowermost Eocene Oise amber (Diptera: Mycetophilidae)" .
+
+<https://en.wikipedia.org/wiki/Transport_in_B%C4%83l%C8%9Bi#char=10,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "transport in Bălți" ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Transport_in_B%C4%83l%C8%9Bi#char=0,253> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7834956> .
+
+<https://www.wikiwand.com/en/%C5%BBygowice#char=0,8>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Żygowice" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.wikiwand.com/en/%C5%BBygowice#char=0,313> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q8083503> .
+
+<https://www.gemcoplayers.org/#char=0,238>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "238"^^xsd:nonNegativeInteger ;
+        nif:isString    "Gemco Players is calling for submissions from directors or production teams who would like to contribute to our 2021/22 seasons. We're looking for a variety of plays, shows, productions to stage at The Gem Community Arts Centre, Emerald. " .
+
+<https://en.wikipedia.org/wiki/Goonj_(1974_film)#char=0,69>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "69"^^xsd:nonNegativeInteger ;
+        nif:isString    "Goonj is a 1974 Bollywood suspense/horror film directed by S.U. Syed." .
+
+<https://en.wikipedia.org/wiki/Gopipur#char=0,7>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gopipur" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Gopipur#char=0,105> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q17053775> .
+
+<https://www.imdb.com/name/nm1531547/#char=0,104>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "104"^^xsd:nonNegativeInteger ;
+        nif:isString    "Gopal Datt is an actor and writer, known for Tere Naam (2003), A Simple Murder (2020) and Virkar (2021)." .
+
+<https://www.mindat.org/taxon-1918014.html#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Olyras" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.mindat.org/taxon-1918014.html#char=0,149> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3351753> .
+
+<https://en.wikipedia.org/wiki/Sony_Entertainment_Network#char=0,15>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Music Unlimited" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Sony_Entertainment_Network#char=0,147> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q611472> .
+
+<https://en.wikipedia.org/wiki/%C5%BBygl%C4%85d#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Żygląd" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/%C5%BBygl%C4%85d#char=0,187> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q393239> .
+
+<https://en.wikipedia.org/wiki/Goore#char=0,59>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "59"^^xsd:nonNegativeInteger ;
+        nif:isString    "Goore is a surname. Notable people with the surname include" .
+
+<https://www.antgroup.com/en/about#char=0,119>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "119"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ant Group aims to create the infrastructure and platform to support the digital transformation of the service industry." .
+
+<https://www.imdb.com/name/nm1531547/#char=0,10>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gopal Datt" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.imdb.com/name/nm1531547/#char=0,104> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q52151604> .
+
+<https://en.wikipedia.org/wiki/Gopakumar_Thiruvancheril#char=0,121>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "121"^^xsd:nonNegativeInteger ;
+        nif:isString    "Gopakumar Thiruvancheril is an Indian Assistant Professor of molecular electronics from Indian Institutes of Technology. " .
+
+<https://www.mskcc.org/cancer-care/patient-education/tube-feeding-using-bolus-method#char=0,12>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tube feeding" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.mskcc.org/cancer-care/patient-education/tube-feeding-using-bolus-method#char=0,204> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3879930> .
+
+<https://en.wikipedia.org/wiki/Goonj_(1974_film)#char=0,5>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goonj" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Goonj_(1974_film)#char=0,69> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5583994> .
+
+<https://en.wikipedia.org/wiki/%C5%BBygl%C4%85d#char=0,187>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "187"^^xsd:nonNegativeInteger ;
+        nif:isString    "Żygląd [ˈʐɨɡlɔnt] (German: Zeigland) is a village in the administrative district of Gmina Papowo Biskupie, within Chełmno County, Kuyavian-Pomeranian Voivodeship, in north-central Poland." .
+
+<https://avibase.bsc-eoc.org/species.jsp?avibaseid=71782EE1#char=4,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "White-bellied Warbler" ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://avibase.bsc-eoc.org/species.jsp?avibaseid=71782EE1#char=0,291> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q918097> .
+
+<https://www.alaska.org/detail/goose-lake-anchorage#char=0,10>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goose Lake" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.alaska.org/detail/goose-lake-anchorage#char=0,149> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1309664> .
+
+<https://en.wikipedia.org/wiki/%C5%BBurejny#char=0,182>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "182"^^xsd:nonNegativeInteger ;
+        nif:isString    "Żurejny [ʐuˈrɛi̯nɨ] (German: Schioreinen)[1] is a settlement in the administrative district of Gmina Ostróda, within Ostróda County, Warmian-Masurian Voivodeship, in northern Poland." .
+
+<https://www.tripadvisor.es/LocationPhotoDirectLink-g297722-d6611509-i172410299-Pahawang_Island-Bandar_Lampung_Lampung_Sumatra.html#char=0,47>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "47"^^xsd:nonNegativeInteger ;
+        nif:isString    "Balak Island and Tanjung Putus with white sands" .
+
+<https://en.wikipedia.org/wiki/Peggy_Regenwetter#char=0,17>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Peggy Regenwetter" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Peggy_Regenwetter#char=0,152> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q13104542> .
+
+<https://www.mskcc.org/cancer-care/patient-education/tube-feeding-using-bolus-method#char=0,204>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "204"^^xsd:nonNegativeInteger ;
+        nif:isString    "Tube feeding is when you get your nutrients through a feeding tube if you aren’t able to get enough through eating and drinking, or if you can’t swallow safely. Nutrients provide energy and help you heal." .
+
+<https://en.wikipedia.org/wiki/Ted_Thorn#char=0,162>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "162"^^xsd:nonNegativeInteger ;
+        nif:isString    "Edward Joseph Ted Thorn (born c. 1896) was an Australian rugby union player, a state and national representative flanker who made 36 appearances for the Waratahs." .
+
+<https://en.wikipedia.org/wiki/Ans%C3%B3_Aragonese#char=0,14>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ansó Aragonese" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Ans%C3%B3_Aragonese#char=0,103> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3574358> .
+
+<https://en.wikipedia.org/wiki/Gopakumar_Thiruvancheril#char=0,24>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gopakumar Thiruvancheril" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Gopakumar_Thiruvancheril#char=0,121> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q16886092> .
+
+<https://en.wikipedia.org/wiki/Ted_Thorn#char=14,23>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ted Thorn" ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Ted_Thorn#char=0,162> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7693800> .
+
+<https://en.wikipedia.org/wiki/Peggy_Creek#char=0,11>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Peggy Creek" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Peggy_Creek#char=0,117> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q24061729> .
+
+<https://en.wikipedia.org/wiki/Motorola_International_3200#char=4,31>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Motorola International 3200" ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Motorola_International_3200#char=0,188> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q623539> .
+
+<https://www.chinadaily.com.cn/english/focus/2004-02/27/content_310000.htm#char=0,186>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "186"^^xsd:nonNegativeInteger ;
+        nif:isString    "The following is a biographical sketch of Li Zhaozhuo, who was just elected vice-chairman of the 10th National Committee of the Chinese People's Political Consultative Conference (CPPCC)" .
+
+<https://en.wikipedia.org/wiki/Trick_Trick_(rapper)#char=183,193>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goon Sqwad" ;
+        nif:beginIndex        "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Trick_Trick_(rapper)#char=0,194> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2126224> .
+
+<https://en.wikipedia.org/wiki/Li_Yuyang#char=0,119>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "119"^^xsd:nonNegativeInteger ;
+        nif:isString    "Li Yuyang was promoted to Chinese Super League side Guangzhou R&F first team squad by manager Dragan Stojković in 2016." .
+
+<https://en.wikipedia.org/wiki/Olympus_%C2%B5_Tough#char=0,219>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "219"^^xsd:nonNegativeInteger ;
+        nif:isString    "Olympus µ Tough is a family of compact digital cameras from Olympus Corporation. Among the models in the family are the 12 megapixel µ Tough-3000 and μ Tough-8000 cameras. They are specified to be shock- and waterproof." .
+
+<https://en.wikipedia.org/wiki/Music_for_Two_Sleepy_People#char=0,27>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Music for Two Sleepy People" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Music_for_Two_Sleepy_People#char=0,101> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q24963133> .
+
+<https://avibase.bsc-eoc.org/species.jsp?avibaseid=71782EE1#char=0,291>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "291"^^xsd:nonNegativeInteger ;
+        nif:isString    "The White-bellied Warbler (Basileuterus culicivorus hypoleucus) is a bird in the Parulidae family. It is found in Bolivia, Brazil, and Paraguay. It resembles the closely related Golden-crowned Warbler (the two sometimes hybridize), but its underparts are entirely whitish instead of yellow. " .
+
+<https://www.antgroup.com/en/about#char=0,9>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ant Group" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.antgroup.com/en/about#char=0,119> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q21979415> .
+
+<https://play.google.com/store/apps/details?id=com.herocraft.game.antraidgame&hl=en_US&gl=US#char=0,175>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "175"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ant Raid fills your device with fun cartoony action! Jump into the hilarious story of an ant colony trying to survive swarms of fellow insects, mutated into mindless monsters!" .
+
+<https://virtualglobetrotting.com/map/watchtower-of-el-vella-n/view/google/#char=4,27>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Watchtower of El Vellón" ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://virtualglobetrotting.com/map/watchtower-of-el-vella-n/view/google/#char=0,154> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7973189> .
+
+<https://amp.blog.shops-net.com/27868372/1/music-for-the-third-policeman.html#char=0,304>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "304"^^xsd:nonNegativeInteger ;
+        nif:isString    "Music for The Third Policeman is an album by the composer and musician Django Bates and the Powder Room Collapse Orchestra. It was released by Ah Um records in 1990. The album is based on the 1939 comic novel The Third Policeman, written by the Irish author Flann OBrien. It was performed live July 2000." .
+
+<https://amp.en.shops-com.in/34218482/1/peggy-r-cook.html#char=0,13>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Peggy R. Cook" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://amp.en.shops-com.in/34218482/1/peggy-r-cook.html#char=0,212> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7160728> .
+
+<https://www.wikiwand.com/en/Oman_at_the_1996_Summer_Olympics#char=0,68>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "68"^^xsd:nonNegativeInteger ;
+        nif:isString    "Oman competed at the 1996 Summer Olympics in Atlanta, United States." .
+
+<https://www.worldcasinodirectory.com/casino/holiday-inn-sunspree-aruba-resort-excelsior-casino-90#char=0,243>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "243"^^xsd:nonNegativeInteger ;
+        nif:isString    "The Excelsior Casino is the only casino in Aruba to offer 3-4-5 times odds on Craps and Double Deck Blackjack. Spanish 21 and Blackjack can be delt out of a shoe at your request. And, most of all, the Excelsior Casino does not hit the soft 17." .
+
+<https://www.tripadvisor.es/LocationPhotoDirectLink-g297722-d6611509-i172410299-Pahawang_Island-Bandar_Lampung_Lampung_Sumatra.html#char=0,12>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Balak Island" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.tripadvisor.es/LocationPhotoDirectLink-g297722-d6611509-i172410299-Pahawang_Island-Bandar_Lampung_Lampung_Sumatra.html#char=0,47> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q16837239> .
+
+<https://www.biotaxa.org/Zootaxa/article/view/zootaxa.4722.1.9#char=36,45>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Exechiini" ;
+        nif:beginIndex        "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.biotaxa.org/Zootaxa/article/view/zootaxa.4722.1.9#char=0,106> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q21226855> .
+
+<https://en.wikipedia.org/wiki/Gopipur#char=0,105>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "105"^^xsd:nonNegativeInteger ;
+        nif:isString    "Gopipur is a village in Suriyawan block Sant Ravidas Nagar district in the Indian state of Uttar Pradesh." .
+
+<https://en.wikipedia.org/wiki/Goore#char=0,5>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goore" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Goore#char=0,59> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q24085241> .
+
+<https://www.theengineer.co.uk/full-speed-ahead-careers-in-the-uk-motorsport-sector/#char=16,35>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "motorsport industry" ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.theengineer.co.uk/full-speed-ahead-careers-in-the-uk-motorsport-sector/#char=0,410> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q17056443> .
+
+<https://www.wikiwand.com/en/Ol%C3%ADmpico_Peruano#char=0,16>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Olímpico Peruano" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.wikiwand.com/en/Ol%C3%ADmpico_Peruano#char=0,89> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7089301> .
+
+<https://amp.blog.shops-net.com/27868372/1/music-for-the-third-policeman.html#char=0,29>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Music for The Third Policeman" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://amp.blog.shops-net.com/27868372/1/music-for-the-third-policeman.html#char=0,304> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q16998308> .
+
+<https://www.manualslib.com/products/Motorola-V535-283698.html#char=0,13>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Motorola V535" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.manualslib.com/products/Motorola-V535-283698.html#char=0,40> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q16965843> .
+
+<https://amp.en.shops-com.in/34218482/1/peggy-r-cook.html#char=0,212>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "212"^^xsd:nonNegativeInteger ;
+        nif:isString    "Peggy R. Cook was a politician in Flint, Michigan. Cook was a community organizer on the East side of Flint in its 4th Ward, where she involved in neighborhood associations and starting neighborhood foot patrol. " .
+
+<https://en.wikipedia.org/wiki/Antaeotricha_albifrons#char=0,22>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Antaeotricha albifrons" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Antaeotricha_albifrons#char=0,139> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q13376724> .
+
+<https://en.wikipedia.org/wiki/%C5%BBurejny#char=0,7>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Żurejny" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/%C5%BBurejny#char=0,182> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3594377> .
+
+<https://en.wikipedia.org/wiki/Tubardi#char=0,7>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tubardi" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://en.wikipedia.org/wiki/Tubardi#char=0,263> ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5834415> .
+
+<https://en.wikipedia.org/wiki/Trick_Trick_(rapper)#char=0,194>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "194"^^xsd:nonNegativeInteger ;
+        nif:isString    "Christian Anthony Mathis (born June 28, 1973), better known by his stage name Trick Trick, is an American rapper and record producer from Detroit. He is a member of the hip hop group Goon Sqwad." .
+
+<https://en.wikipedia.org/wiki/Music_for_Two_Sleepy_People#char=0,101>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "101"^^xsd:nonNegativeInteger ;
+        nif:isString    "Music for Two Sleepy People is a 1958 album by Jack Pleis (credited as Jack Pleis and His Orchestra)." .

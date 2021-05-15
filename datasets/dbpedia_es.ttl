@@ -1,0 +1,913 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<https://www.hostinger.es/tutoriales/que-es-github#char=111,114>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Git" ;
+        nif:beginIndex        "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.hostinger.es/tutoriales/que-es-github#char=0,115> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Git> .
+
+<https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,480>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "480"^^xsd:nonNegativeInteger ;
+        nif:isString    "Kǒng Jiǎ (孔甲) fue el 14º rey de la Dinastía Xia de China y el hijo de Bù Jiàng.[2]​[3]​ Posiblemente gobernó 31 años. Según los Anales de Bambú, vivió como su tío Jiōng en la capital Xia de Río del Oeste (西河).[4]​ Los anales no cuentan mucho de este rey, más allá de que en el tercer año de su régimen practicaba la caza en las Montañas Fu (萯山) en Dongyang (东阳) y en el quinto año compuso la canción \"El sonido de Oriente\" (东音), también llamada \"La canción del hacha rota\" (破斧之歌)." .
+
+<https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=545,568>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Distrito de La Chorrera" ;
+        nif:beginIndex        "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=0,938> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Distrito_de_La_Chorrera> .
+
+<http://backuppc.sourceforge.net/#char=0,157>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "157"^^xsd:nonNegativeInteger ;
+        nif:isString    "BackupPC es un sistema empresarial de alto rendimiento para realizar copias de seguridad de PC y portátiles Linux, WinXX y MacOSX en el disco de un servidor." .
+
+<https://es.wikipedia.org/wiki/Watergrasshill#char=22,31>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "localidad" ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Watergrasshill#char=0,275> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Localidad> .
+
+<https://es.wikipedia.org/wiki/Leticia_Loor#char=328,370>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidad Católica Santiago de Guayaquil" ;
+        nif:beginIndex        "328"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Leticia_Loor#char=0,414> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Universidad_Católica_de_Santiago_de_Guayaquil> .
+
+<https://es.wikipedia.org/wiki/West_Elizabeth#char=95,106>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pensilvania" ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/West_Elizabeth#char=0,214> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Pensilvania> .
+
+<https://es.wikipedia.org/wiki/El_Main#char=87,94>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Argelia" ;
+        nif:beginIndex        "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/El_Main#char=0,331> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Argelia> .
+
+<http://www.fi.upm.es/?id=gradoingenieriainformatica#char=281,291>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ingeniería" ;
+        nif:beginIndex        "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.fi.upm.es/?id=gradoingenieriainformatica#char=0,328> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Ingeniero> .
+
+<http://www.fi.upm.es/?id=gradoingenieriainformatica#char=196,200>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ABET" ;
+        nif:beginIndex        "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.fi.upm.es/?id=gradoingenieriainformatica#char=0,328> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/ABET> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=81,91>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "baloncesto" ;
+        nif:beginIndex        "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Baloncesto> .
+
+<https://es.wikipedia.org/wiki/Watergrasshill#char=0,275>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "275"^^xsd:nonNegativeInteger ;
+        nif:isString    "Watergrasshill es una localidad situada en el condado de Cork de la provincia de Munster (República de Irlanda), con una población en 2016 de 1346 habitantes. Se encuentra ubicada al suroeste del país, a poca distancia de la ciudad de Cork y de la costa del océano Atlántico." .
+
+<http://helgadealvear.com/artistas/angela-de-la-cruz/#char=277,295>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goldsmiths College" ;
+        nif:beginIndex        "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://helgadealvear.com/artistas/angela-de-la-cruz/#char=0,318> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Goldsmiths,_University_of_London> .
+
+<https://es.wikipedia.org/wiki/Leticia_Loor#char=0,414>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "414"^^xsd:nonNegativeInteger ;
+        nif:isString    "Leticia Loor Martínez (Guayaquil, 1953) es una escritora y profesora ecuatoriana. Describe a sus obras como de misterio humano-psicológicas.1​ Durante su formación en la Literatura participó en talleres de escritores de larga trayectoria tales como Fernando Itúrburu y Miguel Donoso Pareja. Estudió Literatura y se graduó en la Universidad Católica Santiago de Guayaquil, siendo después docente de esta asignatura." .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=166,169>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CBA" ;
+        nif:beginIndex        "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/CBA> .
+
+<https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=28,37>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "antiviral" ;
+        nif:beginIndex        "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=0,148> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Antiviral> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=139,142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "NBA" ;
+        nif:beginIndex        "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/NBA> .
+
+<https://es.wikipedia.org/wiki/El_Main#char=0,331>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "331"^^xsd:nonNegativeInteger ;
+        nif:isString    "El Main es un municipio (baladiyah) de la provincia o valiato de Bordj Bou Arréridj en Argelia. En abril de 2008 tenía una población censada de 6237 habitantes. Se encuentra ubicado en el centro-norte del país, sobre la cordillera del Atlas, a poca distancia al sur de la costa del mar Mediterráneo y de la capital del país, Argel." .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=463,471>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eurostat" ;
+        nif:beginIndex        "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "471"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Eurostat> .
+
+<https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=247,258>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "trotskistas" ;
+        nif:beginIndex        "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Trotskismo> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=37,52>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "27 de noviembre" ;
+        nif:beginIndex        "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/27_de_noviembre> .
+
+<https://es.wikipedia.org/wiki/West_Elizabeth#char=21,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "borough" ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/West_Elizabeth#char=0,214> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Borough> .
+
+<https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=495,520>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Provincia de Panamá Oeste" ;
+        nif:beginIndex        "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=0,938> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Provincia_de_Panamá_Oeste> .
+
+<https://es.wikipedia.org/wiki/El_Main#char=42,83>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "provincia o valiato de Bordj Bou Arréridj" ;
+        nif:beginIndex        "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/El_Main#char=0,331> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Provincia_de_Bordj_Bou_Arréridj> .
+
+<http://helgadealvear.com/artistas/angela-de-la-cruz/#char=86,123>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidad de Santiago de Compostela" ;
+        nif:beginIndex        "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://helgadealvear.com/artistas/angela-de-la-cruz/#char=0,318> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Universidad_de_Santiago_de_Compostela> .
+
+<https://es.wikipedia.org/wiki/West_Elizabeth#char=43,63>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "condado de Allegheny" ;
+        nif:beginIndex        "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/West_Elizabeth#char=0,214> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Condado_de_Allegheny> .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=230,236>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tralee" ;
+        nif:beginIndex        "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.qaz.wiki/wiki/Rathkeale#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Tralee> .
+
+<https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=33,40>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "especie" ;
+        nif:beginIndex        "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=0,78> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Especie> .
+
+<https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=255,263>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "hardware" ;
+        nif:beginIndex        "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=0,370> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Hardware> .
+
+<https://es.wikipedia.org/wiki/Leticia_Loor#char=23,32>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guayaquil" ;
+        nif:beginIndex        "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Leticia_Loor#char=0,414> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Guayaquil> .
+
+<https://www.hostinger.es/tutoriales/que-es-github#char=65,96>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "sistema de control de versiones" ;
+        nif:beginIndex        "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.hostinger.es/tutoriales/que-es-github#char=0,115> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Control_de_versiones> .
+
+<https://es.wikipedia.org/wiki/Poggiorsini#char=57,61>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bari" ;
+        nif:beginIndex        "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Poggiorsini#char=0,102> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Provincia_de_Bari> .
+
+<http://backuppc.sourceforge.net/#char=123,129>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MacOSX" ;
+        nif:beginIndex        "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://backuppc.sourceforge.net/#char=0,157> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/MacOS> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=198,203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Havel" ;
+        nif:beginIndex        "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Río_Havel> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "608"^^xsd:nonNegativeInteger ;
+        nif:isString    "Berlín, oficialmente la Ciudad-Estado de Berlín es la capital de Alemania y uno de los dieciséis estados federados alemanes. Se localiza al noreste de Alemania. Por la ciudad fluyen los ríos Spree, Havel, Panke, Dahme y Wuhle. Con una población de 3,5 millones de habitantes, Berlín es la ciudad más poblada del país y de Europa Central, así como la primera ciudad en población y la cuarta aglomeración urbana entre los países de la Unión Europea, según datos de Eurostat. Berlín fue sucesivamente capital del Reino de Prusia (1701-1918), de la República de Weimar (1919-1933) y del Tercer Reich (1933-1945)." .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "263"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ronnie Valentine (Norfolk, Virginia, 27 de noviembre de 1957) es un exjugador de baloncesto estadounidense que disputó una temporada en la NBA, además de jugar en la CBA, la USBL y la liga italiana. Con 2,01 metros de estatura, jugaba en la posición de ala-pívot." .
+
+<https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=233,244>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "anarquistas" ;
+        nif:beginIndex        "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Anarquismo> .
+
+<http://www.fi.upm.es/?id=gradoingenieriainformatica#char=294,301>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ciencia" ;
+        nif:beginIndex        "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.fi.upm.es/?id=gradoingenieriainformatica#char=0,328> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Ciencia> .
+
+<https://es.wikipedia.org/wiki/Poggiorsini#char=29,37>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "italiana" ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Poggiorsini#char=0,102> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Italia> .
+
+<https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=324,335>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "informática" ;
+        nif:beginIndex        "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=0,370> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Informática> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=65,73>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemania" ;
+        nif:beginIndex        "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Alemania> .
+
+<https://es.wikipedia.org/wiki/Poggiorsini#char=63,69>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "región" ;
+        nif:beginIndex        "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Poggiorsini#char=0,102> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Regiones_de_Italia> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=184,197>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "liga italiana" ;
+        nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Lega_Basket_Serie_A> .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=163,169>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "millas" ;
+        nif:beginIndex        "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.qaz.wiki/wiki/Rathkeale#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Milla> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=322,336>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa Central" ;
+        nif:beginIndex        "322"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Europa_Central> .
+
+<http://www.fi.upm.es/?id=gradoingenieriainformatica#char=0,328>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "328"^^xsd:nonNegativeInteger ;
+        nif:isString    "El título de Graduado/a en Ingeniería Informática por la Universidad Politécnica de Madrid ha sido acreditado por la Engineering Accreditation Commission (EAC) de la prestigiosa agencia americana ABET (Accreditation Board for Engineering and Technology), que acredita programas de ingeniería y ciencia aplicada en todo el mundo." .
+
+<https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=725,763>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Federación Internacional del Automóvil" ;
+        nif:beginIndex        "725"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=0,938> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Federación_Internacional_del_Automóvil> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=545,564>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "República de Weimar" ;
+        nif:beginIndex        "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "564"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/República_de_Weimar> .
+
+<https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=119,128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "hepatitis" ;
+        nif:beginIndex        "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=0,148> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Hepatitis> .
+
+<https://es.wikipedia.org/wiki/Watergrasshill#char=46,61>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "condado de Cork" ;
+        nif:beginIndex        "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Watergrasshill#char=0,275> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Condado_de_Cork> .
+
+<https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=0,370>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "370"^^xsd:nonNegativeInteger ;
+        nif:isString    "Kilobaud Microcomputing fue una revista estatunidense dedicada a los forofos de los ordenadores personales desde el final de la década de 1970 hasta principios de la década de 1980. Kilobaud Microcomputing cubría todos el campos de los \"microordenadores, hardware y software, con artículos sobre los diferentes campos de la informática, especialmente telecomunicaciones." .
+
+<https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=163,168>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jiōng" ;
+        nif:beginIndex        "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,480> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Jiōng> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=27,35>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Virginia" ;
+        nif:beginIndex        "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Virginia> .
+
+<https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=71,96>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "revolución social de 1936" ;
+        nif:beginIndex        "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Revolución_social_española_de_1936> .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=0,297>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "297"^^xsd:nonNegativeInteger ;
+        nif:isString    "Rathkeale ( irlandés : Ráth Caola , que significa \" ringfort de Caola \") es una ciudad en el oeste del condado de Limerick , en Irlanda . Se encuentra a 30 km (18 millas) al suroeste de la ciudad de Limerick en la carretera N21 a Tralee , condado de Kerry , y se encuentra a orillas del río Deel ." .
+
+<http://www.fi.upm.es/?id=gradoingenieriainformatica#char=27,49>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ingeniería Informática" ;
+        nif:beginIndex        "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.fi.upm.es/?id=gradoingenieriainformatica#char=0,328> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Ingeniería_informática> .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=199,207>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Limerick" ;
+        nif:beginIndex        "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.qaz.wiki/wiki/Rathkeale#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Limerick> .
+
+<https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=0,148>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "148"^^xsd:nonNegativeInteger ;
+        nif:isString    "Entecavir es un medicamento antiviral que se utiliza para tratar la infección crónica (largo plazo) por el virus de la hepatitis B (VHB) en adultos." .
+
+<http://backuppc.sourceforge.net/#char=69,88>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "copias de seguridad" ;
+        nif:beginIndex        "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://backuppc.sourceforge.net/#char=0,157> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Copia_de_seguridad> .
+
+<https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=112,121>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "autódromo" ;
+        nif:beginIndex        "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=0,938> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Autódromo> .
+
+<https://es.wikipedia.org/wiki/El_Main#char=272,277>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "costa" ;
+        nif:beginIndex        "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/El_Main#char=0,331> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Costa> .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=52,60>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ringfort" ;
+        nif:beginIndex        "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.qaz.wiki/wiki/Rathkeale#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Ringfort> .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=12,20>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "irlandés" ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.qaz.wiki/wiki/Rathkeale#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Irlanda> .
+
+<https://es.wikipedia.org/wiki/West_Elizabeth#char=0,214>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "214"^^xsd:nonNegativeInteger ;
+        nif:isString    "West Elizabeth es un borough ubicado en el condado de Allegheny en el estado estadounidense de Pensilvania. En el año 2000 tenía una población de 565 habitantes y una densidad poblacional de 727.2 personas por km²." .
+
+<https://es.wikipedia.org/wiki/Watergrasshill#char=235,239>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cork" ;
+        nif:beginIndex        "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Watergrasshill#char=0,275> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Cork> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Berlín" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Berlín> .
+
+<https://es.wikipedia.org/wiki/El_Main#char=325,330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Argel" ;
+        nif:beginIndex        "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/El_Main#char=0,331> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Argel> .
+
+<http://helgadealvear.com/artistas/angela-de-la-cruz/#char=298,317>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Slade School of Art" ;
+        nif:beginIndex        "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://helgadealvear.com/artistas/angela-de-la-cruz/#char=0,318> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Slade_School_of_Fine_Art> .
+
+<https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=132,135>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "VHB" ;
+        nif:beginIndex        "132"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=0,148> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Virus_de_la_hepatitis_B> .
+
+<https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=0,297>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "297"^^xsd:nonNegativeInteger ;
+        nif:isString    "Paseamos con el historiador Andy Durgan para recuperar la huella de la revolución social de 1936 plantando cara a la sublevación militar contra la República y de los violentos hechos del mayo del 37 cuando se enfrentaron comunistas, anarquistas y trotskistas en la emblemática avenida barcelonesa." .
+
+<http://helgadealvear.com/artistas/angela-de-la-cruz/#char=0,318>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "318"^^xsd:nonNegativeInteger ;
+        nif:isString    "A finales de la década de los ochenta, y tras licenciarse en Filosofía y Letras en la Universidad de Santiago de Compostela, Ángela de la Cruz abandona su ciudad natal de A Coruña para trasladarse a Londres. Allí inicia sus estudios en el Chelsea College of Art y más tarde en Goldsmiths College y Slade School of Art." .
+
+<https://es.wikipedia.org/wiki/Watergrasshill#char=68,77>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "provincia" ;
+        nif:beginIndex        "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Watergrasshill#char=0,275> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Provincia> .
+
+<https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=348,356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dongyang" ;
+        nif:beginIndex        "348"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,480> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Dangyang> .
+
+<https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=266,274>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "software" ;
+        nif:beginIndex        "266"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=0,370> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Software> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=191,196>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Spree" ;
+        nif:beginIndex        "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Spree> .
+
+<https://es.wikipedia.org/wiki/Watergrasshill#char=81,88>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Munster" ;
+        nif:beginIndex        "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Watergrasshill#char=0,275> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Reino_de_Munster> .
+
+<https://es.wikipedia.org/wiki/Poggiorsini#char=0,102>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "102"^^xsd:nonNegativeInteger ;
+        nif:isString    "Poggiorsini es una localidad italiana de la provincia de Bari, región de Puglia, con 1.454 habitantes." .
+
+<https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=40,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "estatunidense" ;
+        nif:beginIndex        "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=0,370> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Estados_Unidos> .
+
+<https://es.wikipedia.org/wiki/El_Main#char=286,298>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mediterráneo" ;
+        nif:beginIndex        "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/El_Main#char=0,331> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Mar_Mediterráneo> .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=239,255>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "condado de Kerry" ;
+        nif:beginIndex        "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.qaz.wiki/wiki/Rathkeale#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Condado_de_Kerry> .
+
+<https://es.wikipedia.org/wiki/El_Main#char=14,23>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "municipio" ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/El_Main#char=0,331> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Municipio> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=253,262>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ala-pívot" ;
+        nif:beginIndex        "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Ala-pívot> .
+
+<http://backuppc.sourceforge.net/#char=148,156>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "servidor" ;
+        nif:beginIndex        "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://backuppc.sourceforge.net/#char=0,157> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Servidor> .
+
+<https://es.wikipedia.org/wiki/Leticia_Loor#char=69,80>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ecuatoriana" ;
+        nif:beginIndex        "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Leticia_Loor#char=0,414> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Ecuador> .
+
+<https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=16,27>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "medicamento" ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=0,148> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Medicamento> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=97,114>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "estados federados" ;
+        nif:beginIndex        "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Estado_federado> .
+
+<https://es.wikipedia.org/wiki/West_Elizabeth#char=77,91>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "estadounidense" ;
+        nif:beginIndex        "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/West_Elizabeth#char=0,214> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Estados_Unidos> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=24,37>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciudad-Estado" ;
+        nif:beginIndex        "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Ciudad-Estado> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=510,525>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reino de Prusia" ;
+        nif:beginIndex        "510"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Reino_de_Prusia> .
+
+<https://es.wikipedia.org/wiki/Watergrasshill#char=258,274>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "océano Atlántico" ;
+        nif:beginIndex        "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Watergrasshill#char=0,275> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Océano_Atlántico> .
+
+<https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=44,54>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "coleóptero" ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=0,78> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Coleoptera> .
+
+<https://es.wikipedia.org/wiki/Poggiorsini#char=19,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "localidad" ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Poggiorsini#char=0,102> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Localidad> .
+
+<https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=522,535>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "corregimiento" ;
+        nif:beginIndex        "522"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=0,938> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Corregimiento> .
+
+<https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=107,112>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "virus" ;
+        nif:beginIndex        "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://cima.aemps.es/cima/dochtml/p/82118/Prospecto_82118.html#char=0,148> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Virus> .
+
+<http://www.fi.upm.es/?id=gradoingenieriainformatica#char=57,90>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidad Politécnica de Madrid" ;
+        nif:beginIndex        "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.fi.upm.es/?id=gradoingenieriainformatica#char=0,328> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Universidad_Politécnica_de_Madrid> .
+
+<https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=128,143>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Anales de Bambú" ;
+        nif:beginIndex        "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,480> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Anales_de_Bambú> .
+
+<https://es.wikipedia.org/wiki/Berl%C3%ADn#char=212,217>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dahme" ;
+        nif:beginIndex        "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Berl%C3%ADn#char=0,608> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Dahme> .
+
+<https://es.wikipedia.org/wiki/West_Elizabeth#char=210,213>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "km²" ;
+        nif:beginIndex        "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/West_Elizabeth#char=0,214> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Kilómetro_cuadrado> .
+
+<https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=61,68>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "familia" ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=0,78> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Familia_(biología)> .
+
+<https://es.wikipedia.org/wiki/Leticia_Loor#char=269,289>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Miguel Donoso Pareja" ;
+        nif:beginIndex        "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Leticia_Loor#char=0,414> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Miguel_Donoso_Pareja> .
+
+<https://www.hostinger.es/tutoriales/que-es-github#char=0,115>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "115"^^xsd:nonNegativeInteger ;
+        nif:isString    "En resumen, GitHub es un servicio basado en la nube que aloja un sistema de control de versiones (VCS) llamado Git." .
+
+<https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=277,284>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "avenida" ;
+        nif:beginIndex        "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.publico.es/culturas/movimiento-obrero-ocupo-ramblas-barcelona.html#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Avenida> .
+
+<https://www.hostinger.es/tutoriales/que-es-github#char=98,101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "VCS" ;
+        nif:beginIndex        "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.hostinger.es/tutoriales/que-es-github#char=0,115> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Control_de_versiones> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=174,178>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USBL" ;
+        nif:beginIndex        "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/USBL> .
+
+<https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=35,47>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dinastía Xia" ;
+        nif:beginIndex        "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,480> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Dinastía_Xia> .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=103,122>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "condado de Limerick" ;
+        nif:beginIndex        "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.qaz.wiki/wiki/Rathkeale#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Condado_de_Limerick> .
+
+<https://www.hostinger.es/tutoriales/que-es-github#char=12,18>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "GitHub" ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://www.hostinger.es/tutoriales/que-es-github#char=0,115> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/GitHub> .
+
+<https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=69,77>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Meloidae" ;
+        nif:beginIndex        "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=0,78> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Meloidae> .
+
+<https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_de_Panam%C3%A1#char=0,938>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "938"^^xsd:nonNegativeInteger ;
+        nif:isString    "El Autódromo Internacional de Panamá, conocido como Circuito Internacional de Panamá entre los panameños, es un autódromo en fase de construcción y ampliación es el primer circuito Autódromo construido en Panamá. Ha sido inaugurado 2 veces ya que cuenta con 3 pistas, la primera fue la de cuarto de milla, la segunda el Circuito de carrera y la tercera será para 4x4, la última inauguración que ha sido la más importante es la del circuito, que fue en julio de 2016. El autódromo se ubica en la Provincia de Panamá Oeste, corregimiento Mendoza, Distrito de La Chorrera. aproximadamente a 20 minutos de Ciudad de Panamá, capital de Panamá. El circuito tiene una longitud de 2.300 kilómetros; el diseño fue supervisado por la (Federación Internacional del Automóvil) la pista contiene subidas, bajadas, un punto ciego, muchas curvas pronunciadas y pocas rectas, el récord de velocidad alcanzado es de 255 km/h (dependiendo de la categoría)." .
+
+<https://es.wikipedia.org/wiki/Poggiorsini#char=73,79>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Puglia" ;
+        nif:beginIndex        "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.wikipedia.org/wiki/Poggiorsini#char=0,102> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Apulia> .
+
+<https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=84,106>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ordenadores personales" ;
+        nif:beginIndex        "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Kilobaud_Microcomputing#char=0,370> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Computadora_personal> .
+
+<https://es.wikipedia.org/wiki/Prionotolytta_zimbabweana#char=0,78>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "78"^^xsd:nonNegativeInteger ;
+        nif:isString    "Prionotolytta zimbabweana es una especie de coleóptero de la familia Meloidae." .
+
+<http://helgadealvear.com/artistas/angela-de-la-cruz/#char=199,206>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Londres" ;
+        nif:beginIndex        "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://helgadealvear.com/artistas/angela-de-la-cruz/#char=0,318> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Londres> .
+
+<https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=414,421>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente" ;
+        nif:beginIndex        "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,480> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Oriente> .
+
+<https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=70,78>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bù Jiàng" ;
+        nif:beginIndex        "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/K%C7%92ng_Ji%C7%8E#char=0,480> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Bù_Jiàng> .
+
+<https://es.linkfang.org/wiki/Ronnie_Valentine#char=18,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Norfolk" ;
+        nif:beginIndex        "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.linkfang.org/wiki/Ronnie_Valentine#char=0,263> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Norfolk> .
+
+<https://es.qaz.wiki/wiki/Rathkeale#char=128,135>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Irlanda" ;
+        nif:beginIndex        "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <https://es.qaz.wiki/wiki/Rathkeale#char=0,297> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/Irlanda> .
+
+<http://helgadealvear.com/artistas/angela-de-la-cruz/#char=171,179>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Coruña" ;
+        nif:beginIndex        "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://helgadealvear.com/artistas/angela-de-la-cruz/#char=0,318> ;
+        itsrdf:taIdentRef     <http://es.dbpedia.org/resource/La_Coruña> .
