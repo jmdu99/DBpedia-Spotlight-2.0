@@ -9,15 +9,23 @@ New models have been created in English and Spanish by modifying the original [w
 
 It has also been necessary to add Wikidata's *instance types*, *redirects* and *disambiguations* to the original [DBpedia Spotlight tool](https://github.com/dbpedia-spotlight/dbpedia-spotlight-model).
 
-### APIs
-This **demo** uses an statistical *web service* for [English]() and [Spanish](https://www.dbpedia-spotlight.org/api/es).
+![alt text](https://github.com/jmdu99/DBpedia-Spotlight-Wikidata/blob/main/images/modified_spotlight.png?raw=true)
 
-**Original DBpedia Spotlight** *web services* for [English](https://www.dbpedia-spotlight.org/api/en), [Spanish](https://www.dbpedia-spotlight.org/api/en) and many more languages can also be checked.
+### Demo
+
+#### 1. Original Spotlight
+Original DBpedia Spotlight *web services* for [English](https://www.dbpedia-spotlight.org/api/en), [Spanish](https://www.dbpedia-spotlight.org/api/es) and many more languages can also be checked.
+
+![alt text](https://github.com/jmdu99/DBpedia-Spotlight-Wikidata/blob/main/images/original.png?raw=true)
+
+#### 2. Modified Spotlight (detecting Wikidata entities)
+
+![alt text](https://github.com/jmdu99/DBpedia-Spotlight-Wikidata/blob/main/images/modified.png?raw=true)
 
 ### Sources
-- Modified [DBpedia Spotlight tool](https://github.com/jmdu99/DBpedia-Spotlight-2.0/tree/main/dbpedia-spotlight) 
-- Modified [wikistatextractor tool](https://github.com/jmdu99/DBpedia-Spotlight-2.0/tree/main/wikistatsextractor) 
-- Modified [model generator tool](https://github.com/jmdu99/DBpedia-Spotlight-2.0/tree/main/model-quickstarter)
-- [Evaluation datasets](https://github.com/jmdu99/DBpedia-Spotlight-2.0/tree/main/datasets)
-- [Source code](https://github.com/jmdu99/DBpedia-Spotlight-2.0/tree/main/spotlight-demo) of this demo
+- Modified [DBpedia Spotlight tool](https://github.com/jmdu99/DBpedia-Spotlight-Wikidata/tree/main/dbpedia-spotlight) 
+- Modified [wikistatextractor tool](https://github.com/jmdu99/DBpedia-Spotlight-Wikidata/tree/main/wikistatsextractor) 
+- Modified [model generator tool](https://github.com/jmdu99/DBpedia-Spotlight-Wikidata/tree/main/model-quickstarter)
+- [Evaluation datasets](https://github.com/jmdu99/DBpedia-Spotlight-Wikidata/tree/main/datasets)
+- [Source code](https://github.com/jmdu99/DBpedia-Spotlight-Wikidata/tree/main/spotlight-demo) of this demo
 - Original models are found [here](https://databus.dbpedia.org/dbpedia/spotlight/spotlight-model/), as well as [redirects](https://databus.dbpedia.org/dbpedia/generic/redirects), [instance types](https://databus.dbpedia.org/dbpedia/mappings/instance-types), and [disambiguations](https://databus.dbpedia.org/dbpedia/generic/disambiguations).
