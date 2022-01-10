@@ -1,4 +1,4 @@
-# DBpedia Spotlight 2.0
+# DBpedia Spotlight (added models with Wikidata entitites)
 [DBpedia Spotlight](https://www.dbpedia-spotlight.org/) is a tool for automatically annotating mentions of [DBpedia](https://www.dbpedia.org/about/)  resources in text, providing a solution for linking unstructured information sources to the Linked Open Data cloud. 
 
 Original DBpedia Spotlight demo can be found [here](https://demo.dbpedia-spotlight.org/). Nevertheless, **this demo also allows annotating mentions of  [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)  resources**. 
