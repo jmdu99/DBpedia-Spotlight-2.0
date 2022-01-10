@@ -15,8 +15,6 @@ This **demo** uses an statistical *web service* for [English]() and [Spanish](ht
 **Original DBpedia Spotlight** *web services* for [English](https://www.dbpedia-spotlight.org/api/en), [Spanish](https://www.dbpedia-spotlight.org/api/en) and many more languages can also be checked.
 
 ### Sources
-- New generated [model](https://files.jdiaz.dbpedia.linkeddata.es/files/wikidata_es.zip) for Spanish
-- New generated [model](https://files.jdiaz.dbpedia.linkeddata.es/files/wikidata_en.zip) for English
 - Modified [DBpedia Spotlight tool](https://github.com/jmdu99/DBpedia-Spotlight-2.0/tree/main/dbpedia-spotlight) 
 - Modified [wikistatextractor tool](https://github.com/jmdu99/DBpedia-Spotlight-2.0/tree/main/wikistatsextractor) 
 - Modified [model generator tool](https://github.com/jmdu99/DBpedia-Spotlight-2.0/tree/main/model-quickstarter)
